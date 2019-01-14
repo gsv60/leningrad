@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/styles.css" media="all">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+crossorigin="anonymous">
+{{> head/head head.defaults}}
+</head>
+
+<body>
+    <div class="signin">
+        <h2 class="signin__title">
+            Вход
+        </h2>
+        <div class="signin__input">
+            <div class="signin__input-left">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
+                <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
+            </div>
+            <div class="signin__input-right">
+            <div class="signin__input-rememberme"> <input type="checkbox" id="scales" name="scales">
+                <label for="scales" class="signin__remember">Запомнить меня</label>
+            </div>
+            <button type="submit" class="signin__button">Войти</button>
+        </div>
+        </div>
+    </div>
+
+    <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
+    <script src="static/js/main.js"></script>
+
+</body>
+</html>
